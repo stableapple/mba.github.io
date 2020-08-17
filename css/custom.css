@@ -10,9 +10,15 @@
 	/*margin-left: 25px;*/
 	font-size: 20px;
 }
+#videos{
+	display: none;
+}
 
 @media only screen and (max-width: 756px) {
   .tagline{
   	margin-top: 0;
+  }
+  #videos{
+  	display: block;
   }
 }

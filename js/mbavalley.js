@@ -1,5 +1,5 @@
 $(function(){
-	var youtube_api_key = 'YOUR_API_KEY';
+	var youtube_api_key = 'AIzaSyDhozrsBWMR3EDEqWqpfVEBdYI2yjYLcKQ';
 
 	var loading = {
 		show: function() {
@@ -494,11 +494,6 @@ $(function(){
 		});		
 	}
 
-	// ease scroll
-	var easeScrollFunc = function() {
-		$("html").easeScroll();
-	}
-
 	var toggleMobile = function() {
 		$(document).on("click", "[data-toggle=menu]", function() {
 			var $this = $(this),
@@ -700,8 +695,6 @@ $(function(){
 	featured();
 
 	magnificGallery();
-
-	easeScrollFunc();
 
 	toggleMobile();
 
